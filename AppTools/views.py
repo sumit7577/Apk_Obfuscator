@@ -8,7 +8,6 @@ def home(request):
 	if request.method == "POST":
 		name = request.FILES['lib']
 		contac = Apps(app=name)
-		print(name)
 		if name.name[:-5:-1] != "kpa.":
 			print("wrong file")
 			delete()

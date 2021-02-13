@@ -1,0 +1,15 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: AntiS12_DZAPK.COM.apk
+compressionType: false
+doNotCompress:
+- arsc
+- pk8
+isFrameworkApk: false
+packageInfo: null
+sdkInfo: null
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework: null
+version: 2.3.4
+versionInfo: null
