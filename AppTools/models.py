@@ -5,5 +5,5 @@ class Apps(models.Model):
 	app_id = models.AutoField
 	app = models.FileField(upload_to="AppTools",default="")
 	
-	def __str__(self):
-		return self.title
+	#def __str__(self):
+		#return self.title
