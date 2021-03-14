@@ -6,7 +6,7 @@ from obfuscapk import main
 
 def home(request):
 	if request.method == "POST":
-		name = request.FILES['lib']
+		name = request.FILES["app"]
 		contac = Apps(app=name)
 		if name.name[:-5:-1] != "kpa.":
 			print("wrong file")

@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
-import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,7 +26,7 @@ SECRET_KEY = '16om8!i)c@w4@f&8eiijb#15t4$pe2))f_s_&4b$vsn+358qy7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["apkobfuscator.herokuapp.com"]
+ALLOWED_HOSTS = ["apkobfuscator.herokuapp.com","127.0.0.1","f6d466a99de5.ngrok.io"]
 
 
 # Application definition
@@ -57,7 +56,7 @@ ROOT_URLCONF = 'ApkObfuscator.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["Templates"],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -124,5 +123,3 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_ROOT= os.path.join(BASE_DIR, "Apps")
 MEDIA_URL="/Apps/"
-
-django_heroku.settings(locals())

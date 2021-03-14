@@ -1,0 +1,55 @@
+{% extends "first.html" %}
+{% block body %}
+<div class="contaminent mt-5">
+     <div class="card">
+         <form method="post" action="/" enctype="multipart/form-data">{% csrf_token %}
+         <div class="content">
+             <h2 class="h11">01</h2>
+             <h3 class="h33">Lib Encryption</h3>
+             <p class="pp">Someone Famous please call me momtfu</p>
+            <label class="card-a" for="files" class="btn">Upload Apk</label>
+  <input id="files" name="lib" style="visibility:hidden;" type="file">
+  <button type="submit">Submit</button>
+         </div>
+         </form>
+     </div>
+<div class="card">
+    <form method="post" action="/" enctype="multipart/form-data">{% csrf_token %}
+         <div class="content">
+             <h2 class="h11">02</h2>
+             <h3 class="h33">Nop Codes</h3>
+             <p class="pp">Someone Famous please call me momtfu</p>
+              <label class="card-a" for="files" class="btn">Upload Apk</label>
+  <input id="files" name="nop" style="visibility:hidden;" type="file">
+  <button type="submit">Submit</button>
+         </div>
+         </form>
+     </div>
+     
+<div class="card">
+    <form method="post" action="/" enctype="multipart/form-data">{% csrf_token %}
+         <div class="content">
+             <h2 class="h11">03</h2>
+             <h3 class="h33">Asset Encryption</h3>
+             <p class="pp">Someone Famous please call me momtfu</p>
+            <label class="card-a" for="files" class="btn">Upload Apk</label>
+  <input id="files" name="asset" style="visibility:hidden;" type="file">
+  <button type="submit">Submit</button>
+     </div>
+     </form>
+     </div>
+     
+<div class="card">
+    <form method="post" action="/" enctype="multipart/form-data">{% csrf_token %}
+         <div class="content">
+             <h2 class="h11">04</h2>
+             <h3 class="h33">Reflection Codes</h3>
+             <p class="pp">Someone Famous please call me momtfu</p>
+             <label class="card-a" for="files" class="btn">Upload Apk</label>
+  <input id="files" name="reflection" style="visibility:hidden;" type="file">
+  <button type="submit">Submit</button>
+         </div>
+         </form>
+     </div>
+</div>
+{% endblock %}
