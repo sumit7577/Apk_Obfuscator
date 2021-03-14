@@ -26,7 +26,7 @@ SECRET_KEY = '16om8!i)c@w4@f&8eiijb#15t4$pe2))f_s_&4b$vsn+358qy7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["apkobfuscator.herokuapp.com","127.0.0.1","f6d466a99de5.ngrok.io"]
+ALLOWED_HOSTS = ["sumit7577.pythonanywhere.com"]
 
 
 # Application definition
